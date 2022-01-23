@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Kaj Børges Logbog</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="style.css"></link>
+    </head>
+    <body>
+        <!-- Navigation bar HTML -->
+        <div class="topnav" id="myTopnav">
+            <a href="index.html">Kaj Børge</a>
+            <a href="informatik.html" class="active">INF</a>
+            <a href="so.html">SO</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+              <i class="fa fa-bars"></i>
+            </a>
+        </div>
+
+        <!-- Accordion HTML -->
+        <div class="content" id="informatik">
+            <div class="element left">
+                <h2>Informatik Noter</h2>
+
+                <!-- Note-knap start -->
+                <button class="accordion">HTML Noter</button>
+                <div class="panel">
+                <p>
+                    HTML er til at definere indholdet på en hjemmeside.
+                    <br><br>
+                    Her er et link: 
+                    <br>
+                    https://www.w3schools.com/html/html_intro.asp
+                </p>
+                </div>
+                <!-- Note-knap slut-->
+
+                <button class="accordion">If statement</button>
+                <div class="panel">
+                <p>if statements er en ting man kan sættte foran noget, som så siger "Hvis dette er sandt" så gør "dette", dette er nok en af de mest brugbare statements man kan lave.
+                </p>
+                </div>
+
+                <button class="accordion">Gamestates</button>
+                <div class="panel">
+                <p>Gamestates er noget jeg bruger meget i mit Flabby bird projekt, dette kan man bruge sammen med sin If statements, så kan man sige, hvis vi er i en statement så ska dette ske</p>
+                </div>
+            </div>
+
+            <div class="element left">
+                <h2>Informatik Projekter</h2>
+                <button class="accordion">første projekt (flabby bird)</button>
+                <div class="panel">
+                <p>vi er i gang med at lærer at programmere med et flabby bird spil, dette lærer mig meget, og jeg har fundet ud af at jeg kan lide at programmere, meget mere ind jeg troede, dette projekt ELSKER jeg.</p>
+                </div>
+
+                <button class="accordion">Projekt 2</button>
+                <div class="panel">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div>
+
+                <button class="accordion">Projekt 3</button>
+                <div class="panel">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div>
+            </div>
+
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
